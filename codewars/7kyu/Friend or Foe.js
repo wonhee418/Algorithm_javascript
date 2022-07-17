@@ -18,10 +18,14 @@
  */
 
  function friend(friends){
+  //친구로 담을 배열을 생성
   let result = [];
   
+  //주어진 배열의 길이만큼 for문을 실행
   for(let i = 0; i< friends.length; i++){
+    //배열의 첫번쨰 친구부터 이름을 확인하여 이름이 4글자라면
     if(friends[i].length == 4){
+      //친구배열에 추가
       result.push(friends[i])
     }
   }
