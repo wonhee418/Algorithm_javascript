@@ -1,7 +1,7 @@
 /**
  *
  * 문제 : Given a string, you have to return a string in which each character (case-sensitive) is repeated once.
- *        (주어진 문자열에서 모든 느낌표를 제거하는 RemoveExclamationMarks 함수를 작성하십시오. )
+ *        문자열이 주어지면 각 문자(대소문자 구분)가 한 번 반복되는 문자열을 반환해야 합니다.
  * 
  * 예시 : * "String"      -> "SSttrriinngg"
  *          "Hello World" -> "HHeelllloo  WWoorrlldd"
