@@ -10,11 +10,7 @@
  */
 function getCount(str) {
   const vowelArr = str.match(/[a,e,i,o,u]/gi)
-  if (vowelArr === null) {
-    return 0;
-  } else {
-    return vowelArr.length
-  }
+  return vowelArr === null ? 0 : vowelArr.length
 }
 
 
