@@ -11,7 +11,7 @@
  */
 
 function solution(num1, num2) {
-  return Math.floor(num1 / num2 * 10000);
+  return Math.floor(num1 / num2 * 1000);
 }
 
 console.log(solution(2, 3));
